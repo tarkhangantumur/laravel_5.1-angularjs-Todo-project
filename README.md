@@ -19,9 +19,9 @@ Heads up for Windows + Vagrant users: Start by applying the fix in issue #61
 -cd laravel_5.1-angularjs-Todo-project
 
 fix database credentials in .env
-##npm install -g gulp bower
-##npm install
-##bower install
+###npm install -g gulp bower
+###npm install
+###bower install
 -gulp && gulp watch
 -php artisan migrate
 php -S localhost:8080 public
