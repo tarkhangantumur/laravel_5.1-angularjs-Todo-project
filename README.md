@@ -15,12 +15,14 @@ check out the full list of features
 
 Heads up for Windows + Vagrant users: Start by applying the fix in issue #61
 
-composer create-project jadjoubran/laravel5-angular-material-starter --prefer-dist
-cd laravel5-angular-material-starter
+-composer create-project tarkhangantumur/laravel_5.1-angularjs-Todo-project --prefer-dist
+-cd laravel_5.1-angularjs-Todo-project
+
 fix database credentials in .env
-npm install -g gulp bower
-npm install
-bower install
-gulp && gulp watch
+-npm install -g gulp bower
+-npm install
+-bower install
+-gulp && gulp watch
+-php artisan migrate
 php -S localhost:8080 public
 You're ready to go! http://localhost:8080
