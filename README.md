@@ -2,14 +2,12 @@
 
 # OVERVIEW
 
-This is a starter project that gives you an out of the box configuration Laravel 5.1 and AngularJS (folder by feature architecture). Here are the goodies that you'll get:
+This is a starter project that gives you a configuration Laravel 5.1 and AngularJS (folder by feature architecture). Here are the goodies that you'll get:
 
 * Laravel 5.1
 * Angular
 * Angular Material
 * Blazing fast Elixir 3.0 configuration with custom tasks
-* artisan generators for angular (artisan ng:feature name, artisan ng:dialog name, etc..)
-* check out the full list of features
 
 # Installation
 
@@ -23,4 +21,4 @@ bower install
 gulp && gulp watch
 php artisan serve
 ```
-You're ready to go! http://localhost:8080
+You're ready to go! http://localhost:8000
